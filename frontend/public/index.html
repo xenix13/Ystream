@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Interface Plex Personnalisée</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: #eee;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      .media-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background-color: #222;
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      h2, h3 {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Chargement du script React -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
