@@ -1,3 +1,6 @@
+WORK IN PROGRESS
+
+---
 # Ystream – Plex Media Library Viewer
 
 **Ystream** is a web-based interface that connects to a Plex Media Server and displays its content. Its main goal is to offer each user **complete freedom to customize their own Plex UI**, allowing for unique, personalized frontends built on top of a shared backend.
